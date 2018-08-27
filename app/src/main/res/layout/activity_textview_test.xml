@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:text="你好我好大家好!你好我好大家好!你好我好大家好!你好我好大家好!"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:textColorHighlight="@android:color/holo_purple"
+        android:textIsSelectable="true"
+        android:textSelectHandleLeft="@android:drawable/arrow_up_float"
+        android:textSelectHandleRight="@android:drawable/arrow_down_float"
+        android:textSelectHandle="@android:drawable/btn_star"
+        />
+</LinearLayout>

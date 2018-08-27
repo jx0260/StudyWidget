@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_imageView_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截屏"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_imageView_test"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="1"
+        android:scaleType="fitStart"
+        android:src="@drawable/qingfeng"
+        android:tint="@android:color/holo_green_light"
+        android:tintMode="screen" />
+
+    <ImageView
+        android:id="@+id/iv_imageView_second"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/white"
+        android:src="@drawable/heizi"
+        />
+</LinearLayout>
