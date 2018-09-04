@@ -38,6 +38,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ImageView试验"/>
+
+            <Button
+                android:id="@+id/btn_main_dialogTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dialog试验"/>
         </TableRow>
 
         <TableRow

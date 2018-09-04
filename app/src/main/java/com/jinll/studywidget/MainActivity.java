@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.jinll.studywidget.test.DialogActivity;
 import com.jinll.studywidget.test.GestureActivity;
 import com.jinll.studywidget.test.ImageViewActivity;
 import com.jinll.studywidget.test.TextViewActivity;
@@ -47,8 +48,6 @@ public class MainActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        Log.i("ddd", 2/0+"");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -175,4 +174,11 @@ public class MainActivity extends AppCompatActivity
         Intent in = new Intent(this, ImageViewActivity.class);
         startActivity(in);
     }
+
+    @OnClick(R.id.btn_main_dialogTest)
+    void toTestDialog(){
+        Intent in = new Intent(this, DialogActivity.class);
+        startActivity(in);
+    }
+
 }
